@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+/* Стилистика по цветам */
+
+/* color 1 */
+.body,
+.fbtn {
+    color: #36042a;
+}
+
+/* color 2 */
+
+.header,
+.fbtn,
+.footer {
+    border-color: #8a6585;
+    background-color: #8a6585;
+}
+
+
+/* color 3 */
+.form,
+.form-name,
+.form-email,
+.form-message {
+    background-color: #a792a4;
+}
+
+/* color 4 */
+.main-box {
+    background-color: #d8c2d5;
+}
+
+/* Стилистика по padding */
+.header,
+.main-box,
+.language-list,
+.footer {
+    padding: 20px
+}
+
+.experience,
+.skills,
+.language,
+.form,
+.form-message {
+    padding-top: 20px;
+}
+
+.objective,
+.experience,
+.skills,
+.language,
+.form,
+.objective-items,
+.ff,
+.form-btn,
+.form-message {
+    padding-bottom: 20px;
+}
+
+.footer-info,
+.contacts,
+.end,
+.form-box,
+.form-btn,
+.forms,
+.form3 {
+    display: flex;
+    justify-content: center;
+}
+
+.fbtn {
+    margin-top: 10px;
+}
+
+.text1,
+.text2,
+.text3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*center для выравнивания параграфов experience*/
+.center {
+    padding: 0 calc(50% - 1170px / 2)
+}
+
+/*-------header-------*/
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header-title {
+    padding-right: 1100px;
+    margin: auto;
+    justify-content: center;
+}
+
+.header-avatar {
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.profession {
+    font-weight: 800;
+}
+
+/*-------form-------*/
+
+.form-name {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none
+}
+
+.form-email {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none
+}
+
+.form-message {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
